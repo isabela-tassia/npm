@@ -1,0 +1,305 @@
+
+#header ul li { 
+	display: inline;
+	margin-right: 0.8rem;
+	cursor: pointer;
+	float: left;
+}
+
+#header nav { 
+	margin-bottom: -8px;
+	margin-top: -8px;
+}
+
+#menu {
+	position: relative;
+	float: right;
+}
+
+a:link {
+	color: #282828;
+	text-decoration: none;
+	font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+	font-weight: 600;
+	font-size: .800rem;
+	letter-spacing: 0.015625em;
+	cursor: pointer;
+}
+
+a:visited {	color: #282828; }
+
+a:hover { color: #B8B8B8; }
+
+#SearchBox a {
+	font-size: 0.900rem;
+	letter-spacing: 0.015625em;
+	color: #585858;
+	cursor: pointer;
+}
+
+#SearchBox a:hover { color: #B8B8B8; }
+
+#SearchBox input {
+	background-color: #F0F0F0;
+	background-image: url(images/search.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	border: none;
+	text-decoration-color: #989898;
+	height:35px;
+	width: 73%;
+	margin-left: 90px;
+	letter-spacing: 0.1em;
+	margin-top: 10px;
+	border-radius: 3px;
+	position: relative;
+}
+
+#SearchBox { 
+	margin-bottom: 10px;
+	padding-left: 30px;
+	border-top-style: solid;
+	border-top-color: #E0E0E0;
+	margin-top: 25px;
+	border-width: 1px;
+}
+
+#logo {
+	position: absolute;
+	top: 50px;
+}
+
+#SearchBox button {
+	background-color: #cb3837;
+	border: none;
+	color: white;
+	height: 35px;
+	width: 70px;
+	border-bottom-right-radius: 5px; 
+	border-top-right-radius: 5px;
+	
+}
+
+body {
+	padding: 0;
+	margin:0;
+}
+
+/* 1 */
+
+#block1 {
+    
+	background-color: #1D4E69;
+	background-image: url(images/hero-cityscape.svg);
+	height: 520px;
+	background-position: top; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100%;
+	background-size: cover;
+	padding-top: 80px;
+	padding-left: 15rem;
+	padding-right: 900px;
+}
+
+#block1 h1 {
+	color: #f4f4f4;
+	font-size: 3rem;
+	font-weight: 100;
+	display: block;
+}
+
+#Text1 {
+	font-size: 200;
+	line-height: 1.5;
+	color: #f4f4f4;
+	font-size: 1.5rem;
+	display: block;
+}
+
+#block1 button  {
+	
+	border-radius: 25px;
+	background-color: #F08D00;
+	border: none;
+	width: 60%;
+	height: 45px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+#block1 button:hover { background-color: #d77800; }
+
+#block1 button a { 
+	color: #f4f4f4;
+	font-weight: 400;
+	font-size: medium; 
+}
+
+#block1 button a:hover { color: none; }
+
+/* 2 */
+
+#bkgrb2 {
+	width: 30%;
+	float: left;
+	padding-left: 14rem;
+	padding-right: 2rem;
+}
+
+#block2 {
+	background-color: #273547;
+	display: flex;
+	height: 500px;
+	width: 100%;
+	padding-top: 8rem;
+}
+
+#Text2 {
+	color: #f4f4f4;
+	font-weight: 400;
+	padding-left: 3rem;
+	font-size: 18pt;
+	line-height: 1;
+}
+
+#Text2 p a { 
+
+	font-size: 12pt;
+	color: #f4f4f4;
+}
+
+#Text2 p {
+	font-size: 12pt;
+	color: #f4f4f4;
+	padding-left: 5rem;
+	padding-top: 0.5rem;
+} 
+
+
+
+
+#button2 {
+	background-color: #cb3837;
+	border: none;
+	
+	height: 40px;
+	width: 350px;
+	
+	border-radius: 25px;
+	cursor: pointer;
+	
+}
+
+#button2 a {
+	font-weight: 400;
+	color: #f4f4f4;
+	font-size: 15pt;
+}
+
+
+/* 3 */
+
+#block3 {
+	padding-top: 130px;
+	padding-left: 18rem;
+	background-color: #206F9C; 
+	background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 8rem;
+}
+
+#block3 h1 {
+	margin-top: 0;
+	color: white;
+	font-size: 30pt;
+	font-weight: 520;
+}
+
+#block3 p {
+	font-size: 12pt;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+#button4 {
+	background-color: #273547;
+	border-radius: 25px;
+	border:none;
+	height: 40px;
+	width: 120px;
+	font-size: 12pt;
+}
+
+#button4 a {
+	color: #f4f4f4;
+	letter-spacing: 1px;
+}
+
+/* 4 */
+
+#tittle h1 {
+	font-size: 30pt;
+	font-weight: 400;
+	text-align: center;
+}
+
+#tittle h3 {
+	font-size: 13pt;
+	font-weight: 400;
+	text-align: center;
+	font-weight: 400;
+}
+
+.block4 h2 {
+	font-weight: 400;
+	text-align: center;
+	
+}
+
+.block4 p {
+	font-weight: 400;
+	text-align: center;
+}
+
+#block4 {
+	padding-bottom: 400px;
+}
+
+#block4 img { 
+	display: block;
+	margin: 0 auto;
+
+}
+
+
+#img1 {
+	display: block;
+	float: left;
+    width: 300px;
+    padding: 0 0 0 250px;
+     
+    text-align: center;
+}
+
+#img2 {
+	display: block;
+	float: left;
+    padding: 0 0 0 75px;
+    width: 300px;
+    text-align: center;
+   
+}
+
+#img3 {
+	display: block;
+	float: left;
+   	width: 300px;
+   	padding: 0 0 0 75px;
+    text-align: center;
+
+
+}
+
